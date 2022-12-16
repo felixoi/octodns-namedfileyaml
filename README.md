@@ -17,7 +17,7 @@ Pinning specific versions or SHAs is recommended to avoid unplanned upgrades.
 
 ##### Versions
 
-**Waiting for a new octodns release to support this**
+Waiting for a new octodns release to support this!
 
 ```
 # Start with the latest versions and don't just copy what's here
@@ -47,7 +47,7 @@ providers:
   shared.email:
     class: octodns_namedfileyaml.NamedFileYamlProvider
     directory: ./shared
-    filename: mail.yaml
+    filename: mail #.yaml extension will be added automatically
   cloudflare:
     class: octodns_cloudflare.CloudflareProvider
     token: env/CLOUDFLARE_TOKEN
