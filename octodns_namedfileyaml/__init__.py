@@ -5,7 +5,7 @@ from os.path import join
 
 from octodns.provider.yaml import YamlProvider
 
-__VERSION__ = '0.0.1'
+__VERSION__ = '0.0.2'
 
 
 class NamedFileYamlProvider(YamlProvider):
