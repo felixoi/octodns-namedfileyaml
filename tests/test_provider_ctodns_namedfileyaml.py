@@ -12,4 +12,5 @@ class TestNamedFileYamlProvider(TestCase):
     # TODO: test provider
     def test_nothing(self):
         self.assertTrue(True)
-        NamedFileYamlProvider
+        provider = NamedFileYamlProvider('waitwhat', 'test', 'test')
+        provider.get_filenames('test')

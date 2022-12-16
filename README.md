@@ -45,7 +45,7 @@ providers:
     enforce_order: False
     default_ttl: 300
   shared.email:
-    class: .named_yaml_provider.NamedFileYamlProvider
+    class: octodns_namedfileyaml.NamedFileYamlProvider
     directory: ./shared
     filename: mail.yaml
   cloudflare:
