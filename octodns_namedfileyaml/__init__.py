@@ -14,4 +14,7 @@ class NamedFileYamlProvider(YamlProvider):
         self.filename = filename
 
     def get_filenames(self, zone):
-        return join(self.directory, f'{self.filename}.yaml')
+        return (
+            join(self.directory, f'{self.filename}.yaml'),
+            join(self.directory, f'{self.filename}.yaml'),
+        )
